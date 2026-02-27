@@ -6,7 +6,12 @@ import (
 
 func main() {
 	fmt.Print("")
-	fmt.Println(operator(2, 2, "^"))
+	var num1 int
+	var num2 int
+	var opp string
+
+	fmt.Scanf("%d %d %s", &num1, &num2, &opp)
+	fmt.Println(operator(num1, num2, opp))
 }
 
 func operator(num1 int, num2 int, opp string) int {

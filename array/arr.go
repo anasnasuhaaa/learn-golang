@@ -24,7 +24,6 @@ func main() {
 			fmt.Print("Your Coice is: ")
 			fmt.Print(myColors[i-1])
 		}
-
 	}
 
 }
